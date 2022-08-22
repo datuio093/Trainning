@@ -1,0 +1,469 @@
+*{
+    box-sizing: border-box !important;
+}
+.header_container{
+    .container{
+        background-color: white !important;
+  
+    }
+
+  .navbar{
+     z-index: 4;
+     //position: fixed;   
+  }
+ 
+    .navbar-collapse {  // menu
+        flex-grow: 0 !important;
+        
+    }
+    .navbar_container{
+        .navbar-brand{
+            font-size: 2.5rem !important;
+        }
+        
+        margin-bottom: 0 !important;   
+    }
+    
+}
+.navbar-nav{
+    .ti-search{
+        margin: 10px;
+        max-height: 30px;
+        
+    }
+}
+
+
+
+
+.info{
+    display: flex !important;
+    margin: 100px 0 100px 100px;
+    .column{
+        width: 600px;
+        flex-direction: column;
+        justify-content: center;
+        .text{
+         margin-top: 30px;
+        }
+        .button{
+            width: 600px;
+        .button1{
+            background-color: rgb(194, 24, 52);
+            color: white;
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+           padding: 12px 35px;
+        
+        }
+
+        .button2{
+            margin-left: 10px;
+            background-color: white;
+            color: rgb(194, 24, 52);
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            border-color: rgb(194, 24, 52);       
+        }
+    }
+    }
+    
+
+    .image{
+        margin-left: 30px;
+        img{
+            width: 570px;
+            height: 490px;
+        }     
+       }
+}
+  
+
+.stt3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(239, 243, 247);
+    padding-top: 100px;
+      padding-bottom: 100px;
+  
+
+    .card_row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .card{
+           margin: 30px;
+      
+        
+
+
+           .card-img-top{
+      
+           }
+            .card-body{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+              
+                .ti-desktop,.ti-settings,.ti-stats-up{
+               font-size: 2rem;
+               margin-top: 10px;
+                }
+                .card-title{
+                    margin-left: 20px;
+                    font-size: 1.5rem;
+                    margin-bottom: 0px !important;
+                    font-weight: bold;
+                }
+                .card-title:hover{
+                    color: pink;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+
+}
+
+.needhow{
+    display: flex;
+   // justify-content: center;
+    margin-left: 150px;
+  
+    padding-top: 100px;
+      padding-bottom: 100px;
+    .need{
+        width: 600px;
+      .what{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        
+  
+        .button{
+         
+            background-color: rgb(247, 82, 82);
+            justify-content: space-between;
+            color: white;
+            margin-right: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            width: 200px;
+            height: 50px;
+
+            // stupid
+            padding-left: 45px;
+            padding-top: 10px;
+            ////////
+        
+            buton{
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+      }
+      .button:hover{
+        background-color: rgb(243, 232, 232);
+        color: rgb(247, 82, 82);
+      }
+     
+    }
+}
+
+.how{
+    width: 537px;
+    padding-left: 50px;
+
+    .button_how{
+        position: relative;
+        width: 537px;
+        padding: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        border: none;
+        background-color: white;
+        display: flex;
+        
+        border-bottom: 1px solid black;
+        .text{
+
+        }
+    .ti-plus{
+        position: absolute;
+        right: 0;
+        display: block;
+        border: 1px black solid;
+        border-radius: 20px;
+       }
+  }
+
+   .button_how:hover{
+    color: pink;
+   
+    }
+}
+}
+
+
+.stt5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgb(239, 243, 247);
+    padding-top: 100px;
+      padding-bottom: 100px;
+  
+     
+    .card_row{
+     
+        display: flex;
+        flex-direction: row;
+       margin-top: 15px;
+        .card1{
+            position: relative;
+           width: 270px !important;
+           height: 300px !important;
+           border-radius: 3px;
+           margin: 15px;
+           z-index: 2;
+           .card1_hover{
+          z-index: 1;
+            position: absolute;
+            top:0;
+           }
+           .card1_hover:hover{
+            display: none;
+           }
+           img{
+            width: 270px !important;
+            height: 300px !important;
+            border-radius: 10px;
+            
+           }
+        
+        }
+    }
+
+}
+
+
+.start{
+    display: flex;
+    padding: 100px;
+    flex-direction: row;
+    // width: 1200px;
+    // height: 162px;
+    justify-content: center;
+    align-items: center;
+    .text_start{
+        width: 700px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .button_start{
+        margin-left: 50px;
+        width: 500px;
+    padding-top: 20px;
+     .button1{
+        background-color: white;
+        color: rgb(194, 24, 52);
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        border-color: rgb(194, 24, 52);
+     }
+     .button2{
+        background-color: rgb(194, 24, 52);
+        color: white;
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        border-color: rgb(194, 24, 52);
+     }
+    }
+
+}
+
+
+// .stt6{
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//    background-color: rgb(239, 243, 247);
+//     padding-top: 100px;
+//       padding-bottom: 100px;
+  
+     
+//     .card_row{
+     
+//         display: flex;
+//         flex-direction: row;
+//        margin-top: 15px;
+//         .card1{
+//             position: relative;
+//            width: 270px !important;
+//            height: 300px !important;
+//            border-radius: 3px;
+//            margin: 15px;
+//            z-index: 2;
+//            .card1_hover{
+//           z-index: 1;
+//             position: absolute;
+//             top:0;
+//            }
+//            .card1_hover:hover{
+//             display: none;
+//            }
+//            img{
+//             width: 270px !important;
+//             height: 300px !important;
+//             border-radius: 10px;      
+//            }
+        
+//         }
+//     }
+
+// }
+
+.stt6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+     
+    .card_row{
+        font-size: large;
+        display: flex;
+        flex-direction: row;
+         margin-top: 15px;
+        
+        .card{
+            margin-right: 20px;
+            width: 365px !important;
+            padding: 20px 20px 16px 16px;
+            .card-body{
+                padding: 20px 20px 16px 16px;
+                .button{
+                    border: none;
+                    font-weight :700;      
+                    background-color: white;
+                    .ti-arrow-right{
+                        color: red;
+                    }
+                }
+                .button:hover{
+                    color: red;
+                }
+            }
+       .ti-target,.ti-location-arrow,.ti-world{
+        margin-left: 20px;
+        font-size: 30px;
+        color: pink;
+       }
+           img{
+  
+            
+           }
+        
+        }
+    }
+
+}
+
+.stt7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(239, 243, 247);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+     
+    .card_row{
+        font-size: large;
+        display: flex;
+        flex-direction: row;
+         margin-top: 15px;
+         .date_row{
+            display: flex;
+            .post, .post1{
+                margin-bottom: 0 !important;
+                margin-left: 20px;
+                margin-top: 20px;            
+            }
+            .post1{
+                color: rgb(211, 50, 77);
+            }
+         }
+        .card{
+            margin-right: 20px;
+            width: 365px !important;
+            // height: 250px !important;
+            // padding: 40px 40px 32px 32px;
+            .card-body{
+                padding: 20px 20px 16px 16px;
+                .button{
+                    border: none;
+                    font-weight :700;      
+                    background-color: white;
+                    .ti-arrow-right{
+                        color: red;
+                    }
+                }
+                .button:hover{
+                    color: red;
+                }
+            }
+       .ti-target,.ti-location-arrow,.ti-world{
+        margin-left: 20px;
+        font-size: 30px;
+        color: pink;
+       }
+           img{
+  
+            
+           }
+        
+        }
+    }
+
+}
+
+.footer{
+    padding-top: 20px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 18, 23);
+    border-bottom: 1px white solid;
+    .r1{
+        margin: 0 0 0 138px;
+        width: 337px;
+        height: 233px;
+        .row{
+            display: flex;
+            
+        }
+    }
+    .r3 , .r4 {
+        padding: 0 10px 0 50px;
+    }
+}
+
+.footer1{
+    background-color: rgb(17, 18, 23);
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding: 10px 0 10px 0;
+}
