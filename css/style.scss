@@ -2,8 +2,20 @@
     box-sizing: border-box !important;
 }
 .header_container{
-    .container{
+  
+  
+  
+
+    .container1{
+     
+        padding-left: 150px;
+        padding-right: 150px;
         background-color: white !important;
+        position: fixed;
+        z-index: 6;
+        right: 0;
+        left: 0;
+        background-color: white;
   
     }
 
@@ -33,6 +45,25 @@
     }
 }
 
+.slider{
+    .carousel-caption{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 250px;
+        .button{
+            border: none;
+            background-color: rgb(244, 55, 55);
+            border-radius: 10px;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            color: white;
+            font-weight: 700;
+            font-size: large;
+        }
+    }
+}
 
 
 
